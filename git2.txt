@@ -1,1 +1,12 @@
-dfjflhfhdsufgolbvdf
+
+class A:
+    def method1(self):
+        print("this is method1")
+class B():
+    def method2(self):
+        print("this is method2")
+class C(A,B):
+    def method3(self):
+        print("this is method3")
+obj=C()
+print(obj.mro)
